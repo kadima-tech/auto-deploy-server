@@ -1,0 +1,33 @@
+{
+  "name": "auto-deploy-server",
+  "version": "0.0.1",
+  "description": "Open source CD server",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/kadima-tech/auto-deploy-server",
+    "type": "git"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint src",
+    "test": "tape 'test/**/*.js'"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "author": "Jacobus Meulen",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "jscs": "^3.0.7"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.1.3",
+    "tape": "^4.6.2"
+  }
+}
