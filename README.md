@@ -1,4 +1,7 @@
 # auto-deploy-server
+[![Code Climate](https://codeclimate.com/github/kadima-tech/auto-deploy-server/badges/gpa.svg)](https://codeclimate.com/github/kadima-tech/auto-deploy-server)
+[![Test Coverage](https://codeclimate.com/github/kadima-tech/auto-deploy-server/badges/coverage.svg)](https://codeclimate.com/github/kadima-tech/auto-deploy-server/coverage)
+[![Issue Count](https://codeclimate.com/github/kadima-tech/auto-deploy-server/badges/issue_count.svg)](https://codeclimate.com/github/kadima-tech/auto-deploy-server)
 
 auto-deploy-server is a project that was started as a means to give everyone the opportunity to set up their own Continuous Deployment server, without having to pay high fees per project you deploy. 
 

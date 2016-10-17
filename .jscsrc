@@ -3,5 +3,6 @@
   "fileExtensions": [
     ".js",
     ".jsx"
-  ]
+  ],
+  "requireTrailingComma": false
 }
