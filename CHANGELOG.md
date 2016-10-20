@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 ### Added
+- Initialization of the target server
+- Basic deployment to the target server
+- API for communication with the cli
+- User accounts
+- Authentication flows (password and token based)
 
 ### Changed
 

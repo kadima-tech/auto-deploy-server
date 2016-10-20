@@ -4,4 +4,4 @@ require('babel-register');
 // other babel configuration, if necessary
 
 // load your app
-const server = require('../src/server.js');
+require('../src/server.js');
